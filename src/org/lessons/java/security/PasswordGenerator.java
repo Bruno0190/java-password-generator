@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class PasswordGenerator {
 
 
-
-
     public static void main(String[] args) throws Exception {
         
         Scanner in = new Scanner(System.in);
@@ -34,10 +32,10 @@ public class PasswordGenerator {
 
         in.close();
 
-    // sono un metodo che tutti possono vedere = public
-    //sono un metodo a cui ci si riferisce come main => main
-    // dispongo di un unico parametro denominato args, di tipo array di String => String[] args
-    //eccezionalmente si attiva un evento tramite => throws Exception
+        // sono un metodo che tutti possono vedere = public
+        //sono un metodo a cui ci si riferisce come main => main
+        // dispongo di un unico parametro denominato args, di tipo array di String => String[] args
+        //eccezionalmente si attiva un evento tramite => throws Exception
 
 
     }
