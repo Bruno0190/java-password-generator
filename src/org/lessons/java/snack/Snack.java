@@ -12,7 +12,7 @@ public class Snack {
         String parola = input.nextLine().trim();
         String alorap = "";
 
-        for (Integer i = parola.length() - 1; i >= 0; i--) {
+        for (int i = parola.length() - 1; i >= 0; i--) {
 
             alorap += parola.charAt(i);
             
